@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  eos,
   tripguide,
   threejs,
+  wpi,
+  kwork,
+  publify,
+  forkify,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning",
     icon: creator,
   },
 ];
@@ -116,55 +115,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Intern",
+    company_name: "Energy of the South",
+    icon: eos,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2020 - Oct 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed software application to support natural resources logistics calculations using Python programming language and the Django framework.",
+      "Created and maintained a database system using AWS Relational Database Service (RDS).",
+      "Developed an open API using Swagger to enable easy communication between different software components.",
+      "Collaborated with team members to identify requirements, troubleshoot issues and propose solutions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Web Developer",
+    company_name: "WPI",
+    icon: wpi,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with team members to design and develop a web application using AWS, Java and JavaScript",
+      "Contributed to the implementation of back-end functionality using AWS Lambda functions to manage user accounts, algorithm search and content-creation.",
+      "Participated in the development of a RESTful API using Swagger and AWS API Gateway.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full-Stack Web Developer",
+    company_name: "Freelance",
+    icon: kwork,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed full-stack websites using HTML5, CSS3, SCSS/SASS, JavaScript and React.js.",
+      "Collaborated with clients to understand their requirements and ensure their needs met.",
+      "Optimized websites performance and loading times through efficient coding, use of caching techniques, image optimization.",
+      "Designed and implemented responsive user interfaces using media queries and modern techniques (including responsive grids and flexboxes)",
+      "Integrated third-party APIs and services to enhance websites functionality.",
+      "Managed project timelines, deliverables, and milestones to ensure timely and successful competition of projects.",
     ],
   },
 ];
@@ -172,7 +159,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Dinmukhamed proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +167,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Dinmukhamed does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +175,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Dinmukhamed optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +185,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Publify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, create, and manage posts on any topic. A visitor of this website can create their own accounts, create tags for each post and add comments!",
     tags: [
       {
         name: "react",
@@ -211,20 +198,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "emotion.js",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: publify,
+    source_code_link: "https://github.com/JustForFun29/publify-frontend",
   },
   {
-    name: "Job IT",
+    name: "Forkify",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for over 1.000.000 recipes! A user can create their own recipes and bookmark the recipes that they really liked!",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
@@ -236,29 +223,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: forkify,
+    source_code_link: "https://github.com/JustForFun29/forkify-application",
   },
 ];
 
